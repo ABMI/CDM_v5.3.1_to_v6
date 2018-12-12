@@ -89,8 +89,8 @@ select
 	b.person_id,
 	cost_event_id,
 	case when cost_domain_id='visit' then visit_concept_id 
-		end as cost_event_field_concept_id,	-- 이건 뭐하는 변수인걸까..
-	NULL as cost_concept_id,			-- concept table 에 있는 cost concept_id 들 넣어줘야함
+		end as cost_event_field_concept_id,	
+	NULL as cost_concept_id,			
 	cost_type_concept_id,
 	NULL as cost_source_concept_id,			
 	NULL as cost_source_value,
